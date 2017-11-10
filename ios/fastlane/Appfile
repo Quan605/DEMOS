@@ -1,0 +1,15 @@
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
+
+for_lane :enterprise do
+  app_identifier "com.lightappbuilder.apps.huitu" # The bundle identifier of your app
+  apple_id "hz_ent@backustech.com" # Your Apple email address
+  team_id "F2G5Z9A7F9" 
+end
+
+for_lane :adhoc do
+  app_identifier "com.backustech.apps.huitu"
+  apple_id "hz_com@backustech.com"
+  team_id "6LZF6MVX2E"
+end
+
